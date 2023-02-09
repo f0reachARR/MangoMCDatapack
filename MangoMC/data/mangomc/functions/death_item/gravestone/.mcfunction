@@ -1,5 +1,5 @@
 # 防具立てにバンドルを持たせる
-summon armor_stand ~ ~ ~ {Tags:["Gravestone"],ShowArms:1b,HandItems:[{id:"minecraft:bundle",Count:1b,tag:{Items:[]}}],ArmorItems:[{},{},{},{id:"minecraft:player_head",tag:{}}],Invulnerable:1b}
+summon armor_stand ~ ~ ~ {Tags:["Gravestone"],ShowArms:1b,HandItems:[{id:"minecraft:bundle",Count:1b,tag:{Items:[],Enchantments:[{}]}}],ArmorItems:[{},{},{},{id:"minecraft:player_head",tag:{}}],Invulnerable:1b}
 # 角度調整
 tp @e[tag=Gravestone,distance=..1,limit=1] ~ ~ ~ ~ ~
 # アイテムをセット

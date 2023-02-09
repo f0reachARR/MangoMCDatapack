@@ -2,7 +2,7 @@
 function oh_my_dat:please
 
 # バンドルを用意する
-data modify storage mangomc: InventoryItem set value {id:"minecraft:bundle",Count:1b,tag:{Items:[],UsedVoidBundle:1b,HideFlags:127b,display:{Name:'[{"text":"***","color":"gold","obfuscated":true},{"text":"虚無のバンドル","color":"gold","obfuscated":false},{"text":"***","color":"gold","obfuscated":true}]'}}}
+data modify storage mangomc: InventoryItem set value {id:"minecraft:bundle",Enchantments:[{}],Count:1b,tag:{Items:[],UsedVoidBundle:1b,HideFlags:127b,display:{Name:'[{"text":"***","color":"gold","obfuscated":true},{"text":"虚無のバンドル","color":"gold","obfuscated":false},{"text":"***","color":"gold","obfuscated":true}]'}}}
 
 # 最大9個移動する
 scoreboard players set $Temp1 Temp 9
