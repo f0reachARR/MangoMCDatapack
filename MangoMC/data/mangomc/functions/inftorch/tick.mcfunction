@@ -1,0 +1,2 @@
+# ドロップしたトーチを資源トーチにする
+execute as @a[tag=InfTorch] at @s run execute as @e[type=item,nbt={Item:{id:"minecraft:torch"}},distance=..8] run data modify entity @s Item.tag set value {Mango:"InfTorch",HideFlags:1,Enchantments:[{}],display:{Name:'{"text": "資源トーチ","color":"red"}'}}

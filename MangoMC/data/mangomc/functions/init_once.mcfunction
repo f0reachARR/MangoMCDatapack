@@ -2,6 +2,7 @@
 scoreboard objectives add DeathEvent deathCount {"text":"イベント: 死亡"}
 scoreboard objectives add RespawnEvent custom:time_since_death {"text":"イベント: リスポーン"}
 scoreboard objectives add ClickCarrotEvent used:carrot_on_a_stick {"text":"イベント: 人参棒使用"}
+scoreboard objectives add TorchUseEvent used:torch {"text":"イベント: トーチ使用"}
 scoreboard objectives add x dummy {"text":"自分の位置(X)"}
 scoreboard objectives add y dummy {"text":"自分の位置(Y)"}
 scoreboard objectives add z dummy {"text":"自分の位置(Z)"}

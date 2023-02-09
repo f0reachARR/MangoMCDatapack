@@ -12,5 +12,7 @@ tag @a remove InfTorch
 tag @a[tag=ResourceWorld] add KeepItems
 tag @a[tag=ResourceWorld] add InfTorch
 
+function mangomc:inftorch/dim_change
+
 # 後始末
 advancement revoke @s only mangomc:dimension

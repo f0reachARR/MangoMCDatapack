@@ -1,0 +1,1 @@
+clear @a[tag=!InfTorch] torch{Mango:"InfTorch"}

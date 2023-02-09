@@ -6,3 +6,6 @@ function mangomc:death_item/gravestone/tick
 
 # 管理チェスト
 function mangomc:utils/inventory/check_chest
+
+# トーチ
+function mangomc:inftorch/tick
