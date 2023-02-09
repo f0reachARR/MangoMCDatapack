@@ -4,7 +4,7 @@ function oh_my_dat:please
 execute store result score _ OhMyDatID run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].OwnerID
 function oh_its_dat:please
 # アイテムを移動する
-data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DeathInventory append from entity @s HandItems[0].tag.Items[]
+data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].LostItems append from entity @s HandItems[0].tag.Items[]
 # 手持ちを消す
 data modify entity @s HandItems[0] set value {}
 # ささやく
