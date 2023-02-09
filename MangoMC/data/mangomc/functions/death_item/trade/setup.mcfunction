@@ -1,0 +1,3 @@
+# 近くの村人
+data remove entity @e[type=villager,nbt={VillagerData:{profession:"minecraft:cleric"}},limit=1,sort=nearest] Offers.Recipes[{buy:{id:"minecraft:diamond",Count:3b}}]
+data modify entity @e[type=villager,nbt={VillagerData:{profession:"minecraft:cleric"}},limit=1,sort=nearest] Offers.Recipes append value {rewardExp:1b,maxUses:12,buy:{id:"minecraft:diamond",Count:3b},sell:{id:"minecraft:bundle",Count:1b,tag:{EmptyVoidBundle:1b,HideFlags:127b,Items:[{id:"minecraft:stick",Count:1b}],display:{Lore:['{"text":"少しだけ消えたアイテムを取り返せる","color":"blue"}'],Name:'[{"text":"***","color":"gold","obfuscated":true},{"text":"虚無のバンドル","color":"gold","obfuscated":false},{"text":"***","color":"gold","obfuscated":true}]'}}},xp:0,priceMultiplier:0.0,specialPrice:0,demand:0}
