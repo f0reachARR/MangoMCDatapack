@@ -1,0 +1,1 @@
+execute in overworld run setblock -20 124 27 barrel{Lock:"_"} replace
