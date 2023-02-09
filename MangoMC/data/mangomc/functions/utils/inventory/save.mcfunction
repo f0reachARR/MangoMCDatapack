@@ -1,5 +1,7 @@
 # 樽の中身を対象アイテムにする
-execute in overworld run data modify block -20 124 27 Items[0] set from storage mangomc: InventoryItem
+execute in overworld run data modify block -20 124 27 Items set value []
+data modify storage mangomc: InventoryItem.Slot set value 0
+execute in overworld run data modify block -20 124 27 Items append from storage mangomc: InventoryItem
 # 対象スロットを得る
 execute store result score $Temp1 Temp run data get storage mangomc: InventorySlot
 # プレイヤーにあげる
