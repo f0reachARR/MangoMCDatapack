@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:name_tag"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:saddle"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bundle",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{EmptyVoidBundle:1b,NoRefund:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 20.0,
+                                "max": 60.0
+                            },
+                            "treasure": true
+                        }
+                    ],
+                    "name": "minecraft:book"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:nautilus_shell"
+                }
+            ],
+            "rolls": 1.0
+        }
+    ]
+}
