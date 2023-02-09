@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "dimension_change": {
+            "trigger": "minecraft:changed_dimension"
+        }
+    },
+    "rewards": {
+        "function": "mangomc:handler/dim_change"
+    }
+}
