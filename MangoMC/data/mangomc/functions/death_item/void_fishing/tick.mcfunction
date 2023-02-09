@@ -1,1 +1,0 @@
-execute if data entity @s Inventory[{tag:{Mango:"EmptyVoidBundle"}}]

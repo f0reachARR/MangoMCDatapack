@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{EmptyVoidBundle:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "mangomc:death_item/void_fishing/bundle"
+    }
+}
