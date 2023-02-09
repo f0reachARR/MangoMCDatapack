@@ -1,4 +1,3 @@
-# 全プレイヤーtick
 # プレイヤー処理
 execute as @a at @s run function mangomc:tick_player
 
