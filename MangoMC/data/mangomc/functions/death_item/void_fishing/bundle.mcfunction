@@ -2,7 +2,7 @@
 function oh_my_dat:please
 
 # バンドルを用意する
-data modify storage mangomc: InventoryItem set value {id:"minecraft:bundle",Count:1b,tag:{Items:[]}}
+data modify storage mangomc: InventoryItem set value {id:"minecraft:bundle",Count:1b,tag:{Items:[],UsedVoidBundle:1b}}
 
 # 最大9個移動する
 scoreboard players set $Temp1 Temp 9
@@ -22,4 +22,4 @@ data modify storage mangomc: InventorySlot set from storage mangomc: Items[0].Sl
 function mangomc:utils/inventory/save
 
 # 後始末
-advancement revoke @s only item:init_void_bundle
+advancement revoke @s only mangomc:empty_void_bundle
