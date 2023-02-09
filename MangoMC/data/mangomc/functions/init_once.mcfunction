@@ -9,6 +9,9 @@ scoreboard objectives add Const dummy {"text":"定数"}
 scoreboard objectives add Temp dummy {"text":"変数"}
 
 scoreboard players set $0 Const 0
+scoreboard players set $1 Const 1
+scoreboard players set $5 Const 5
+scoreboard players set $9 Const 9
 scoreboard players set $27 Const 27
 scoreboard players set $-64 Const -64
 scoreboard players set $Temp1 Temp 0
